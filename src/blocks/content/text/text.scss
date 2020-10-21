@@ -1,0 +1,46 @@
+//@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/static/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("/src/static/fonts/PTSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Mono";
+  src: url("/src/static/fonts/PTMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("/src/static/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("/src/static/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+
+@import "_view/text_view_title";
+@import "_view/text_view_subtitle";
+@import "_view/text_view_large";
+@import "_view/text_view_default";
+@import "_view/text_view_strong";
+@import "_view/text_view_rare";
+@import "_view/text_view_user";
+
+@import "_color/text_color_default";
+@import "_color/text_color_ghost";
+@import "_color/text_color_inverse";
+@import "_color/text_color_link";
+
+@import "text_align_center";

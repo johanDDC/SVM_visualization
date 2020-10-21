@@ -1,0 +1,8 @@
+.slider__thumb {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(5px);
+  z-index: 2  ;
+}

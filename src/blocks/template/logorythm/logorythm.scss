@@ -1,0 +1,31 @@
+.logorythm {
+  background-color: antiquewhite;
+  opacity: 0.3;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 120px;
+  position: absolute;
+  border-radius: 7px;
+
+  padding: var(--space-xxs);
+
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  transition: opacity 0.2s ease-in;
+}
+
+.logorythm:hover {
+  opacity: 1;
+}
+
+@import "logorythm__title";
+@import "logorythm__desc";
+@import "logorythm__container";
+
+@import "logorythm__mark";
+@import "logorythm__mark1";
+@import "logorythm__mark2";
+@import "logorythm__mark3";
+@import "logorythm__mark4";
+@import "logorythm__mark5";
+@import "logorythm__mark_active";

@@ -1,0 +1,10 @@
+.slider__mark {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--background-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

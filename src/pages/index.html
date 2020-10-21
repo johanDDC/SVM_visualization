@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVM</title>
+</head>
+<body class="theme theme_style_light theme_space_default theme_size_default">
+<section class="logorythm">
+    <p class="logorythm__title text text_view_strong text_color_default">
+        Логорифмическое масштабирование
+    </p>
+    <span class="logorythm__desc text text_view_default text_color_ghost">
+        Текущий параметр масштабирования:
+        <span id="logorythmSliderText">
+        1
+    </span>
+    </span>
+    <div class="logorythm__container">
+        <input type="range" min="1" max="5" value="3" id="logorythmSlider" class="slider" list="logorythmSliderList">
+        <datalist id="logorythmSliderList">
+            <option value="1" label="1e-2">
+            <option value="2" label="1e-1">
+            <option value="3" label="1">
+            <option value="4" label="1e1">
+            <option value="5" label="1e2">
+        </datalist>
+        <div class="slider__thumb" id="logorythmSliderSelector">
+            <div class="slider__button"></div>
+        </div>
+        <div class="logorythm__mark logorythm__mark1 slider__mark"></div>
+        <div class="logorythm__mark logorythm__mark2 slider__mark"></div>
+        <div class="logorythm__mark logorythm__mark3 slider__mark logorythm__mark_active"></div>
+        <div class="logorythm__mark logorythm__mark4 slider__mark"></div>
+        <div class="logorythm__mark logorythm__mark5 slider__mark"></div>
+    </div>
+</section>
+</body>
+</html>

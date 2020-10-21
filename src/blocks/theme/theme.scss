@@ -1,0 +1,8 @@
+.theme {
+  --border-thin: 1px solid var(--border-default);
+  --border-default: var(--border-width) solid var(--border-default);
+}
+
+@import "theme_size_default";
+@import "theme_space_default";
+@import "_style/theme_style_light";

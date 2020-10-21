@@ -1,0 +1,14 @@
+$screen-s: 650px;
+
+.text_view_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--text-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+@media screen and (min-width: $screen-s) {
+  .text_view_title {
+    font-size: var(--text-size-xxl);
+    line-height: var(--line-height-xxl);
+  }
+}

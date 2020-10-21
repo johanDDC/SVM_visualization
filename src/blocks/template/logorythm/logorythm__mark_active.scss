@@ -1,0 +1,10 @@
+.logorythm__mark_active {
+}
+
+.logorythm__mark_active::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--background-circ);
+}
